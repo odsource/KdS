@@ -1,0 +1,4 @@
+vhdl work "../source4/rom_block.vhd"
+vhdl work "../source4/ram_block.vhd"
+vhdl work "../source4/core.vhd"
+vhdl work "../source4/core_tb.vhd"

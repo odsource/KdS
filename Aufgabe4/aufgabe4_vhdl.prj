@@ -1,0 +1,7 @@
+vhdl work "C:\Users\ds-user\KDS\source4\rom_block.vhd"
+vhdl work "C:\Users\ds-user\KDS\source4\ram_block.vhd"
+vhdl work "C:\Users\ds-user\KDS\source2\sync_buffer.vhd"
+vhdl work "C:\Users\ds-user\KDS\source4\core.vhd"
+vhdl work "C:\Users\ds-user\KDS\source2\sync_module.vhd"
+vhdl work "C:\Users\ds-user\KDS\source\hex4x7seg.vhd"
+vhdl work "C:\Users\ds-user\KDS\source4\aufgabe4.vhd"

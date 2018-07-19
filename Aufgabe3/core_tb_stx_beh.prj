@@ -1,0 +1,3 @@
+vhdl isim_temp "../source3/ram_block.vhd"
+vhdl isim_temp "../source3/core.vhd"
+vhdl isim_temp "../source3/core_tb.vhd"

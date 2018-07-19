@@ -1,0 +1,33 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/ds-user/KDS/Aufgabe3/core_tb_isim_beh.exe -prj C:/Users/ds-user/KDS/Aufgabe3/core_tb_beh.prj work.core_tb 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/ds-user/KDS/Aufgabe3/../source3/ram_block.vhd" into library work
+Parsing VHDL file "C:/Users/ds-user/KDS/Aufgabe3/../source3/core.vhd" into library work
+Parsing VHDL file "C:/Users/ds-user/KDS/Aufgabe3/../source3/core_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 129196 KB
+Fuse CPU Usage: 327 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package vcomponents
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture ramb16_s18_s18_v of entity RAMB16_S18_S18 [\RAMB16_S18_S18:core_tb:u1:rb:up...]
+Compiling architecture low_level_definition of entity ram_block [\ram_block:core_tb:u1:rb:\]
+Compiling architecture mult18x18_v of entity MULT18X18 [mult18x18_default]
+Compiling architecture structure of entity core [\core:core_tb:u1:\]
+Compiling architecture verhalten of entity core_tb
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 19 VHDL Units
+Built simulation executable C:/Users/ds-user/KDS/Aufgabe3/core_tb_isim_beh.exe
+Fuse Memory Usage: 162204 KB
+Fuse CPU Usage: 593 ms

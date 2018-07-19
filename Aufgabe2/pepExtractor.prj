@@ -1,0 +1,2 @@
+work	"../source2/sync_buffer.vhd"
+work	"../source2/sync_module.vhd"

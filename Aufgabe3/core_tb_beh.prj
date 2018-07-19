@@ -1,0 +1,3 @@
+vhdl work "../source3/ram_block.vhd"
+vhdl work "../source3/core.vhd"
+vhdl work "../source3/core_tb.vhd"

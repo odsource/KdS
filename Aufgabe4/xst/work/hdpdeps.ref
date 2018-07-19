@@ -1,0 +1,43 @@
+V3 30
+FL C:/Users/ds-user/KDS/source/hex4x7seg.vhd 2018/05/08.10:17:43 P.20131013
+EN work/hex4x7seg 1530172879 FL C:/Users/ds-user/KDS/source/hex4x7seg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/hex4x7seg/struktur 1530172880 \
+      FL C:/Users/ds-user/KDS/source/hex4x7seg.vhd EN work/hex4x7seg 1530172879
+FL C:/Users/ds-user/KDS/source2/sync_buffer.vhd 2018/05/03.08:50:35 P.20131013
+EN work/sync_buffer 1530172873 FL C:/Users/ds-user/KDS/source2/sync_buffer.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sync_buffer/struktur 1530172874 \
+      FL C:/Users/ds-user/KDS/source2/sync_buffer.vhd EN work/sync_buffer 1530172873
+FL C:/Users/ds-user/KDS/source2/sync_module.vhd 2018/04/26.10:16:29 P.20131013
+EN work/sync_module 1530172875 FL C:/Users/ds-user/KDS/source2/sync_module.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sync_module/struktur 1530172876 \
+      FL C:/Users/ds-user/KDS/source2/sync_module.vhd EN work/sync_module 1530172875 \
+      CP sync_buffer
+FL C:/Users/ds-user/KDS/source4/aufgabe4.vhd 2018/06/19.11:26:28 P.20131013
+EN work/aufgabe4 1530172881 FL C:/Users/ds-user/KDS/source4/aufgabe4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/aufgabe4/structure 1530172882 \
+      FL C:/Users/ds-user/KDS/source4/aufgabe4.vhd EN work/aufgabe4 1530172881 \
+      CP sync_module CP core CP hex4x7seg
+FL C:/Users/ds-user/KDS/source4/core.vhd 2018/06/28.10:01:05 P.20131013
+EN work/core 1530172877 FL C:/Users/ds-user/KDS/source4/core.vhd LB unisim \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/std_logic_arith 1381692177 PH unisim/VCOMPONENTS 1381692182 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/core/structure 1530172878 \
+      FL C:/Users/ds-user/KDS/source4/core.vhd EN work/core 1530172877 \
+      CP rom_block CP ram_block CP MULT18X18
+FL C:/Users/ds-user/KDS/source4/ram_block.vhd 2011/05/18.07:13:28 P.20131013
+EN work/ram_block 1530172871 FL C:/Users/ds-user/KDS/source4/ram_block.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ram_block/low_level_definition 1530172872 \
+      FL C:/Users/ds-user/KDS/source4/ram_block.vhd EN work/ram_block 1530172871 \
+      LB unisim PH unisim/VCOMPONENTS 1381692182 CP RAMB16_S18_S18
+FL C:/Users/ds-user/KDS/source4/rom_block.vhd 2011/05/18.16:49:36 P.20131013
+EN work/rom_block 1530172869 FL C:/Users/ds-user/KDS/source4/rom_block.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/rom_block/low_level_definition 1530172870 \
+      FL C:/Users/ds-user/KDS/source4/rom_block.vhd EN work/rom_block 1530172869 \
+      LB unisim PH unisim/VCOMPONENTS 1381692182 CP RAMB16_S18_S18

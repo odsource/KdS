@@ -1,0 +1,6 @@
+vhdl isim_temp "../source3/ram_block.vhd"
+vhdl isim_temp "../source2/sync_buffer.vhd"
+vhdl isim_temp "../source3/core.vhd"
+vhdl isim_temp "../source2/sync_module.vhd"
+vhdl isim_temp "../source/hex4x7seg.vhd"
+vhdl isim_temp "../source3/aufgabe3.vhd"

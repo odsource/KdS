@@ -1,0 +1,36 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/ds-user/KDS/Aufgabe4/core_tb_isim_beh.exe -prj C:/Users/ds-user/KDS/Aufgabe4/core_tb_beh.prj work.core_tb 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/ds-user/KDS/Aufgabe4/../source4/rom_block.vhd" into library work
+Parsing VHDL file "C:/Users/ds-user/KDS/Aufgabe4/../source4/ram_block.vhd" into library work
+Parsing VHDL file "C:/Users/ds-user/KDS/Aufgabe4/../source4/core.vhd" into library work
+Parsing VHDL file "C:/Users/ds-user/KDS/Aufgabe4/../source4/core_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 131500 KB
+Fuse CPU Usage: 421 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture ramb16_s18_s18_v of entity RAMB16_S18_S18 [\RAMB16_S18_S18:core_tb:u1:rob:u...]
+Compiling architecture low_level_definition of entity rom_block [\rom_block:core_tb:u1:rob:\]
+Compiling architecture ramb16_s18_s18_v of entity RAMB16_S18_S18 [\RAMB16_S18_S18:core_tb:u1:rab:u...]
+Compiling architecture low_level_definition of entity ram_block [\ram_block:core_tb:u1:rab:\]
+Compiling architecture mult18x18_v of entity MULT18X18 [mult18x18_default]
+Compiling architecture structure of entity core [\core:core_tb:u1:\]
+Compiling architecture verhalten of entity core_tb
+Time Resolution for simulation is 1ps.
+Waiting for 12 sub-compilation(s) to finish...
+Compiled 23 VHDL Units
+Built simulation executable C:/Users/ds-user/KDS/Aufgabe4/core_tb_isim_beh.exe
+Fuse Memory Usage: 164508 KB
+Fuse CPU Usage: 749 ms

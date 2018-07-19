@@ -1,0 +1,5 @@
+vhdl work "../source2/sync_buffer.vhd"
+vhdl work "../source2/sync_module.vhd"
+vhdl work "../source2/std_counter.vhd"
+vhdl work "../source/hex4x7seg.vhd"
+vhdl work "../source2/aufgabe2.vhd"

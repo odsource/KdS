@@ -1,0 +1,1 @@
+vhdtdtfi -prj Aufgabe2 -o C:/Users/ds-user/KDS/Aufgabe2/sync_module.vhi -module sync_module -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../source2/sync_buffer.vhd -lib work ../source2/sync_module.vhd 

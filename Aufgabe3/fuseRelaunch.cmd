@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/ds-user/KDS/Aufgabe3/core_tb_isim_beh.exe" -prj "C:/Users/ds-user/KDS/Aufgabe3/core_tb_beh.prj" "work.core_tb" 

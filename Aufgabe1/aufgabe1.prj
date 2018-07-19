@@ -1,0 +1,2 @@
+vhdl work "../source/hex4x7seg.vhd"
+vhdl work "../source/aufgabe1.vhd"

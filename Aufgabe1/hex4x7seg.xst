@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/ds-user/KDS/Aufgabe1/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/ds-user/KDS/Aufgabe1/xst"
+elaborate
+-ifn hex4x7seg.prj
+-ifmt mixed

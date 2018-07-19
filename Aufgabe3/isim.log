@@ -1,0 +1,32 @@
+ISim log file
+Running: C:\Users\ds-user\KDS\Aufgabe3\core_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/ds-user/KDS/Aufgabe3/core_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /core_tb/u1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /core_tb/u1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+at 110 ns: Note: test 1 (/core_tb/).
+at 390 ns: Note: test 2 (/core_tb/).
+at 690 ns: Note: test 3 (/core_tb/).
+# restart
+# run all
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /core_tb/u1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /core_tb/u1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+at 110 ns: Note: test 1 (/core_tb/).
+at 390 ns: Note: test 2 (/core_tb/).
+at 690 ns: Note: test 3 (/core_tb/).
+at 1010 ns: Note: test 4 (/core_tb/).
+at 1490 ns: Note: test 5 (/core_tb/).
+at 2890 ns: Note: test 6 (/core_tb/).
+at 5710 ns: Note: test 7 (/core_tb/).
+at 11090 ns: Note: test done... (/core_tb/).
